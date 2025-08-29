@@ -1,0 +1,44 @@
+{
+  "id": "string",
+  "email": "string",
+  "name": "string",
+  "image": "string",
+  "followers": [
+    {
+      "id": "string",
+      "name": "string",
+      "image": "string"
+    }
+  ],
+  "posts": [
+    {
+      "id": "string",
+      "image": "string",
+      "description": "string",
+      "date": "string",
+      "user": {
+        "id": "string",
+        "name": "string",
+        "image": "string"
+      },
+      "likes": [
+        {
+          "id": "string",
+          "name": "string",
+          "image": "string"
+        }
+      ],
+      "comments": [
+        {
+          "id": "string",
+          "body": "string",
+          "user": {
+            "id": "string",
+            "name": "string",
+            "image": "string"
+          }
+        }
+      ]
+    }
+  ]
+}
